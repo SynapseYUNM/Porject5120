@@ -1,0 +1,32 @@
+#app {
+  width: 400px;
+  height: 400px;
+}
+
+$red: #F15C7E;
+$purple: #65336E;
+$yellow: #FFDB8A;
+$ghostwhite: #EAFEE9;
+
+.bg-red { background-color: $yellow; }
+.bg-ghostwhite { background-color: $ghostwhite; }
+.bg-yellow { background-color: $yellow; }
+.bg-purple { background-color: $purple; }
+.border-width-3 { border-width: 4px; }
+.border-purple { border-color: $purple; }
+.rounded3 { border-radius: 6px; }
+.purple { color: $purple; }
+
+.width05 { width: 8px; }
+.height05 { height: 8px; }
+.width1 { width: 16px; }
+.height1 { height: 16px; }
+.height2 { height: 20px; }
+
+.top-neg1 { top: -5px; }
+.top-neg4 { top: -60px; }
+.bottom-neg1 { bottom: -5px; }
+.left-neg1 { left: -5px; }
+.right-neg1 { right: -5px; }
+
+.y1-active:active { transform: translateY(3px) }
